@@ -1,0 +1,110 @@
+<!DOCTYPE HTML5> 
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+
+
+    <div id="sticky-container">
+      <nav>
+        <a href="index.html" class = "test">All projects</a> 
+        <a href="index.html" class = "test">Recent projects</a> 
+        <a href="me.html" class = "test">My profile</a> 
+      </nav>
+    </div>
+
+    
+      <div class="content">
+        
+        <div class = "div-center">
+          <div >
+            <h1>Informatii Personale:</h1>
+          </div>
+        </div>
+
+        <div class = "div-lr">
+          <div class = "div-left">
+            <p>Poza profilului</p>
+          </div>
+          <div class = "div-right">
+            <img src="pictures/profile.jpg" class = "image" width="200" height="300">
+          </div>
+        </div>
+
+        <div class = "div-lr">
+          <div class = "div-left">
+            <p>Nume Utilizator</p>
+          </div>
+          <div class = "div-right">
+            <p>georgianradu260</p>
+          </div>
+        </div>
+
+        <div class = "div-lr">
+          <div class = "div-left">
+            <p>Nume</p>
+          </div>
+          <div class = "div-right">
+            <p>Oprea Radu-Georgian</p>
+          </div>
+        </div>
+
+
+        <div class = "div-lr">
+          <div class = "div-left">
+            <p>Oras</p>
+          </div>
+          <div class = "div-right">
+            <p>Brasov</p>
+          </div>
+        </div>
+
+        <div class = "div-lr">
+          <div class = "div-left">
+            <p>Tara</p>
+          </div>
+          <div class = "div-right">
+            <p>Romania</p>
+          </div>
+        </div>
+
+        <div class = "div-center">
+         <a href="#"> <img src="pictures/facebook.png" class = "image2" width="500" height="500"></a>
+         <a href = "https://www.instagram.com/georgianradu_/"> <img src="pictures/instagram.png" class = "image2" width="500" height="500"></a>
+         <a href = "#">  <img src="pictures/twitter.png" class = "image2" width="500" height="500"></a>
+         <a href = "https://github.com/georgianradu260">  <img src="pictures/github.png" class = "image2" width="500" height="500"></a>
+        </div>
+
+
+
+      </div>
+
+      
+  
+
+      <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+          var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("sticky-container").style.top = "0";
+          } else {
+            document.getElementById("sticky-container").style.top = "-150px";
+          }
+          prevScrollpos = currentScrollPos;
+         }
+      </script>
+
+
+    
+    
+
+
+
+
+
+
+  </body>
+</html>

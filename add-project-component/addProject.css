@@ -1,0 +1,22 @@
+body {
+  /* display: flex;   */
+}
+
+.description-label {
+  vertical-align: top;
+}
+
+#btnContainer {
+  background-color: #ff0000;
+}
+
+.buttons-conteiner {
+  display: flex;
+  /* text-align: right; */
+  justify-content: flex-end;
+  background-color: #ffeedd;
+}
+
+.btn-space {
+  margin-right: 20px;
+}

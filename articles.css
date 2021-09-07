@@ -1,0 +1,44 @@
+.articles-container {
+  display: flex;
+  /* position: relative; */
+  flex-direction: row;
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.articles-container > h1,
+.browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2,
+p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+.side-article {
+  /* position: absolute; */
+  float: right;
+  margin: 10px;
+  padding: 5px;
+  width: 90%;
+  background-color: darkgray;
+}
+
+.add-project {
+  align-items: center;
+  bottom: 5px;
+}
+
+aside {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-style: italic;
+}
